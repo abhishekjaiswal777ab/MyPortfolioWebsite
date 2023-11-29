@@ -4,25 +4,23 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    kotlin,
     html,
     css,
     reactjs,
-    redux,
+    java,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
+    sih,
+    yi,
+    evalley,
     tripguide,
     threejs,
+    persistent,
+    yi_logo,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +44,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "App Developer",
       icon: mobile,
     },
     {
@@ -54,7 +52,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Frontend Developer",
       icon: creator,
     },
   ];
@@ -73,16 +71,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Kotlin",
+      icon: kotlin,
     },
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -109,61 +103,48 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Java",
+      icon: java,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full Stack Developer",
+      company_name: "Young Indians",
+      icon: yi_logo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2023 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Led the development of Yuva Portal, merging React frontend, Node.js/Express.js backend, and MongoDB, .",
+        "Engineered Yuva Portal's REST API, integrating user registration, login, activity tracking, and admin CRUD routes.",
+        "Spearheaded the development and launch of a dynamic quiz-based certification system, driving a 40% increase in user engagement.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Node.js Developer",
+      company_name: "E-valley",
+      icon: sih,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Oct 2022 - Dec 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Showcased this project at Smart India Hackathon 2022, emerging as finalists..",
+        "Created slot booking website empowering street vendors to reserve market slots across cities innovatively.",
+        "Executed user-friendly interface and REST API integration, enhancing project usability and accessibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Martian Summer Internship",
+      company_name: "Persistent Systems",
+      icon: persistent,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Completed an 8-week training program covering Linux, Core Java, Data Structures and Algorithms (DSA), and Database Management Systems (DBMS).",
+        "Acquired hands-on experience in Linux, focusing on system administration tasks and command-line operations.",
+        "Demonstrated proficiency in Core Java through practical projects, including application development and optimization.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -198,30 +179,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Young Indians",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is a hosted web portal for the Yi orgaisation and Young Indians team made under CII guidance which includes providing awareness about multiple domains of science and life skill through videos and activities.",
       tags: [
         {
-          name: "react",
+          name: "nodejs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: yi,
+      source_code_link: "https://github.com/yuva-portal/",
     },
     {
-      name: "Job IT",
+      name: "Evalley",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Our project, presented at Smart India Hackathon 2022, reached the finals. We developed a slot booking website empowering street vendors to reserve market slots across cities, providing an innovative solution to enhance their accessibility and efficiency..",
       tags: [
         {
           name: "react",
@@ -232,34 +213,34 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: evalley,
+      source_code_link: "https://github.com/abhishekjaiswal777ab/EvalleyWebsite",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

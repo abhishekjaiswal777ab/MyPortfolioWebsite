@@ -53,13 +53,13 @@ const About = () => {
       className='mt-4 text-secondary text-[17px]
       max-w-3xl leading-[30px]' 
     >
-      I'm a skilled android  and web app developer with
-      experience in Java, Kotlin and JavaScript, and
+      I'm a skilled backend and frontend developer with
+      experience in Javascript, Java, Kotlin and
       expertise in frameworks like React, Node.js.
       I'm a quick learner and collaborate closely with 
-      clients to create efficient, scalable, and 
+      the team to create efficient, scalable, and 
       user-friendly solutions that solve real-world
-      problems. Let's work together to bring your ideas
+      problems. Let's work together to bring our ideas
       to life!
     </motion.p>
 
